@@ -16,6 +16,7 @@ function App() {
       <Button increment={100} onClickFunction={incrementCount}/>
       <Button increment={1000} onClickFunction={incrementCount}/>
       <span>{count}</span>
+      <span>Done</span>
     </div>
   );
 }
